@@ -1,5 +1,4 @@
 package connect4;
-//Hassan Raja ID:112249751
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
@@ -42,7 +41,7 @@ public class Connect4 {
 	}
 	
 	public void makeMove(char symbol, String s) {
-		System.out.print("Drop a " + s + " disk at column (0–6): ");
+		System.out.print("Drop a " + s + " disk at column (0â€“6): ");
 		int col;
 		
 		try {
